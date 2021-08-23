@@ -114,9 +114,9 @@ header .search .fa-search {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .banner .bg {
@@ -132,5 +132,28 @@ header .search .fa-search {
 .banner .content {
   position: relative;
   z-index: 1;
+  max-width: 550px;
+}
+
+.banner .content .movieTitle {
+  max-width: 250px;
+}
+
+.banner .content h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.banner .content h4 span {
+  padding: 0 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.banner .content h4 span:first-child {
+  padding-left: 0;
+}
+
+.banner .content h4 span:last-child {
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
