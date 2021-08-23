@@ -32,6 +32,15 @@
                 padding: 0 10px;
                 border-right: 1px solid rgba(255, 255, 255, 0.5);
 
+                i {
+                    background: #de0611;
+                    color: #fff;
+                    padding: 0 8px;
+                    display: inline-block;
+                    font-style: normal;
+                    border-radius: 3px;
+                }
+
                 &:first-child {
                     padding-left: 0;
                 }
@@ -40,6 +49,14 @@
                     border: none;
                 }
             }
+        }
+
+        p {
+            font-size: 1em;
+            font-weight: 300;
+            line-height: 1.5em;
+            color: #fff;
+            margin: 5px 0;
         }
     }
 }
