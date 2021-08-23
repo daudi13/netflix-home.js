@@ -56,7 +56,36 @@
             font-weight: 300;
             line-height: 1.5em;
             color: #fff;
-            margin: 5px 0;
+            margin: 10px 0 20px;
+        }
+
+        .buttons {
+            position: relative;
+
+            a {
+                position: relative;
+                display: inline-block;
+                margin-right: 10px;
+                background: #de0611;
+                color: #fff;
+                padding: 6px 20px;
+                text-decoration: none;
+                font-weight: 500;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                border-radius: 5px;
+
+                &:nth-child(2) {
+                background: rgba(0, 0, 0, 0.5);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                transition: background 0.5s ease;
+
+
+                &:hover {
+                    background: #de0611;
+                }
+                }
+            }
         }
     }
 }

@@ -171,6 +171,35 @@ header .search .fa-search {
   font-weight: 300;
   line-height: 1.5em;
   color: #fff;
-  margin: 5px 0;
+  margin: 10px 0 20px;
+}
+
+.banner .content .buttons {
+  position: relative;
+}
+
+.banner .content .buttons a {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  background: #de0611;
+  color: #fff;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.banner .content .buttons a:nth-child(2) {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+
+.banner .content .buttons a:nth-child(2):hover {
+  background: #de0611;
 }
 /*# sourceMappingURL=main.css.map */
