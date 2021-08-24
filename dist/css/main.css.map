@@ -4,7 +4,8 @@
     "sources": [
         "../../sass/main.scss",
         "../../sass/_default.scss",
-        "../../sass/_banner.scss"
+        "../../sass/_banner.scss",
+        "../../sass/_trailer.scss"
     ],
     "names": [],
     "file": "main.css"
