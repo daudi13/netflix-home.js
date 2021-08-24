@@ -88,4 +88,23 @@
             }
         }
     }
+
+    .play {
+        position: absolute;
+        bottom: 50px;
+        left: 100px;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1.2em;
+        cursor: pointer;
+
+        img {
+            margin-right: 10px;
+            max-width: 50px;
+        }
+    }
 }

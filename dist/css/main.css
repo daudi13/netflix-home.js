@@ -202,4 +202,29 @@ header .search .fa-search {
 .banner .content .buttons a:nth-child(2):hover {
   background: #de0611;
 }
+
+.banner .play {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.2em;
+  cursor: pointer;
+}
+
+.banner .play img {
+  margin-right: 10px;
+  max-width: 50px;
+}
 /*# sourceMappingURL=main.css.map */
