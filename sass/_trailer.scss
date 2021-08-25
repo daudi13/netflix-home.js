@@ -12,6 +12,7 @@
     align-items: center;
     backdrop-filter: blur(10px);
     visibility: hidden;
+    opacity: 0;
 
     video {
         max-width: 950px;
