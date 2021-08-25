@@ -250,6 +250,13 @@ header .search .fa-search {
           backdrop-filter: blur(10px);
   visibility: hidden;
   opacity: 0;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.trailer.active {
+  visibility: visible;
+  opacity: 1;
 }
 
 .trailer video {
