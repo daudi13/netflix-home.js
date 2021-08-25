@@ -11,9 +11,19 @@
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
+    visibility: hidden;
 
     video {
-        max-width: 900px;
+        max-width: 950px;
         outline: none;
+    }
+
+    .close {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+        filter: invert(1);
+        max-width: 32px;
     }
 }

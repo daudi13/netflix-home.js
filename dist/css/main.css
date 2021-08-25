@@ -248,10 +248,21 @@ header .search .fa-search {
           align-items: center;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  visibility: hidden;
 }
 
 .trailer video {
-  max-width: 900px;
+  max-width: 950px;
   outline: none;
+}
+
+.trailer .close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  max-width: 32px;
 }
 /*# sourceMappingURL=main.css.map */
