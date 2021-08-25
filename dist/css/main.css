@@ -29,6 +29,22 @@ header {
   z-index: 100;
 }
 
+@media (max-width: 991px) {
+  header {
+    padding: 20px 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+}
+
 header .logo {
   max-width: 150px;
 }
@@ -37,6 +53,17 @@ header .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 991px) {
+  header .navigation {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 10px 0;
+  }
 }
 
 header .navigation li {
@@ -59,6 +86,12 @@ header .search {
   position: relative;
   height: 40px;
   width: 300px;
+}
+
+@media (max-width: 600px) {
+  header .search {
+    width: calc(100% - 20px);
+  }
 }
 
 header .search input {
@@ -117,6 +150,18 @@ header .search .fa-search {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    padding: 220px 20px 120px;
+  }
 }
 
 .banner .bg {
@@ -223,9 +268,25 @@ header .search .fa-search {
   cursor: pointer;
 }
 
+@media (max-width: 991px) {
+  .banner .play {
+    left: 20px;
+    font-size: .75em;
+    letter-spacing: 1em;
+    bottom: 10px;
+  }
+}
+
 .banner .play img {
   margin-right: 10px;
   max-width: 50px;
+}
+
+@media (max-width: 991px) {
+  .banner .play img {
+    margin-right: 10px;
+    max-width: 30px;
+  }
 }
 
 .trailer {
@@ -262,6 +323,12 @@ header .search .fa-search {
 .trailer video {
   max-width: 950px;
   outline: none;
+}
+
+@media (max-width: 991px) {
+  .trailer video {
+    max-width: 90%;
+  }
 }
 
 .trailer .close {

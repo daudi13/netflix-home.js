@@ -23,6 +23,10 @@
     video {
         max-width: 950px;
         outline: none;
+
+        @media (max-width:991px) {
+            max-width: 90%;
+        }
     }
 
     .close {

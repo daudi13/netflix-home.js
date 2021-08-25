@@ -22,12 +22,27 @@ header {
     align-items: center;
     z-index: 100;
 
+    @media (max-width: 991px)  {
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+
+    @media (max-width: 600px){
+        padding: 20px;
+    }
+
     .logo {
         max-width: 150px;
     }
 
     .navigation {
         display: flex; 
+
+        @media (max-width: 991px) {
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
 
         li {
             list-style: none;
@@ -49,6 +64,10 @@ header {
         position: relative;
         height: 40px;
         width: 300px;
+
+        @media (max-width: 600px) {
+            width: calc(100% - 20px);
+        }
 
         input {
             position: absolute;

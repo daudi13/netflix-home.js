@@ -7,6 +7,14 @@
     align-items: center;
     justify-content: flex-start;
 
+    @media (max-width: 991px){
+        padding: 100px 50px;
+    }
+
+    @media (max-width: 600px){
+        padding: 220px 20px 120px;
+    }
+
     .bg {
         position: absolute;
         top: 0;
@@ -102,9 +110,21 @@
         letter-spacing: 1.2em;
         cursor: pointer;
 
+        @media (max-width: 991px) {
+            left: 20px;
+            font-size: .75em;
+            letter-spacing: 1em;
+            bottom: 10px;
+        }
+
         img {
             margin-right: 10px;
             max-width: 50px;
+
+            @media (max-width:991px) {
+                margin-right: 10px;
+                max-width: 30px;
+            }
         }
     }
 }
